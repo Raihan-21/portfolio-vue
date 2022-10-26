@@ -59,7 +59,7 @@ export default {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 1;
+  z-index: 5;
   background: $secondary;
   &.scrolled {
     box-shadow: 0px 2px 5px 1px darken($secondary, 20);

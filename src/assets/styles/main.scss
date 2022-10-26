@@ -98,3 +98,6 @@ $gaps: 1,2,4,6,8,10,12,16,18,20,22,26,28,30,40,48,54,64;
 		column-gap: $gap * 0.25rem !important;
 	}
 }
+.circle{
+  border-radius: 50%;
+}

@@ -210,7 +210,7 @@
         >
         <Transition name="content">
           <div v-show="transition.project.content" class="cards">
-            <a href="" class="card relative rounded-lg">
+            <div class="card relative rounded-lg">
               <div class="h-full overflow-hidden flex items-end">
                 <img src="@/assets/img/todo.png" alt="" />
                 <div class="card-content text-left space-y-4">
@@ -218,6 +218,7 @@
                   <p class="card-desc">
                     A responsive basic todo list app created using React
                   </p>
+
                   <div class="card-tools space-x-2">
                     <span class="bg-primary-light py-1 px-3 rounded-lg"
                       >Javascript</span
@@ -227,9 +228,23 @@
                     >
                   </div>
                 </div>
-              </div></a
-            >
-            <a href="" class="card relative rounded-lg">
+                <div class="card-links space-x-2">
+                  <a
+                    href="https://github.com/Raihan-21/todo-app"
+                    target="_blank"
+                    class="card-link circle"
+                    ><i class="icon-github"></i
+                  ></a>
+                  <a
+                    href="https://raihan-21.github.io/todo-app/"
+                    target="_blank"
+                    class="card-link circle"
+                    ><i class="icon-arrow-up-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="card relative rounded-lg">
               <div class="h-full overflow-hidden flex items-end">
                 <img src="@/assets/img/be-smart.png" alt="" />
                 <div class="card-content text-left space-y-4">
@@ -249,9 +264,18 @@
                     >
                   </div>
                 </div>
-              </div></a
-            >
-            <a href="" class="card relative rounded-lg">
+                <div class="card-links space-x-2">
+                  <!-- <a href="" target="_blank" class="card-link circle"><i class="icon-github"></i></a> -->
+                  <a
+                    href="https://bimbel-be-smart.herokuapp.com//"
+                    target="_blank"
+                    class="card-link circle"
+                    ><i class="icon-arrow-up-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="card relative rounded-lg">
               <div class="h-full overflow-hidden flex items-end">
                 <img src="@/assets/img/innoraine-cake.png" alt="" />
                 <div class="card-content text-left space-y-4">
@@ -275,8 +299,22 @@
                     >
                   </div>
                 </div>
-              </div></a
-            >
+                <div class="card-links space-x-2">
+                  <a
+                    href="https://github.com/Raihan-21/ecommerce"
+                    target="_blank"
+                    class="card-link circle"
+                    ><i class="icon-github"></i
+                  ></a>
+                  <a
+                    href="https://innoraine-cake.herokuapp.com/"
+                    target="_blank"
+                    class="card-link circle"
+                    ><i class="icon-arrow-up-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
           </div>
         </Transition>
       </div>
@@ -663,14 +701,11 @@ section {
     grid-template-columns: repeat(1, 1fr);
     grid-auto-rows: 310px;
     gap: 30px;
-    a {
-      text-decoration: none;
-      color: white;
-      display: inline-block;
-      overflow: hidden;
-    }
     .card {
-      // height: 100%;
+      cursor: pointer;
+      color: white;
+      overflow: hidden;
+      // height: 100%;      overflow: hidden;
       img {
         position: absolute;
         top: 0;
@@ -698,6 +733,22 @@ section {
           }
         }
       }
+      .card-links {
+        position: absolute;
+        opacity: 0;
+        top: 20px;
+        right: 10px;
+        transform: translateY(-10%);
+        transition: all 200ms ease-out;
+        .card-link {
+          border: 1px solid white;
+          padding: 8px;
+        }
+        a {
+          color: white;
+          text-decoration: none;
+        }
+      }
       &::before {
         content: "";
         position: absolute;
@@ -715,6 +766,11 @@ section {
           );
         }
         .card-content {
+          opacity: 1;
+          transform: unset;
+          transition: all 200ms ease-out;
+        }
+        .card-links {
           opacity: 1;
           transform: unset;
           transition: all 200ms ease-out;
