@@ -114,12 +114,32 @@
                 <div
                   class="skill cursor-pointer text-white bg-primary-light py-2 px-4 rounded-lg"
                 >
+                  Next.js
+                </div>
+                <div
+                  class="skill cursor-pointer text-white bg-primary-light py-2 px-4 rounded-lg"
+                >
                   Vue.js
                 </div>
                 <div
                   class="skill cursor-pointer text-white bg-primary-light py-2 px-4 rounded-lg"
                 >
                   Nuxt.js
+                </div>
+                <div
+                  class="skill cursor-pointer text-white bg-primary-light py-2 px-4 rounded-lg"
+                >
+                  TailwindCSS
+                </div>
+                <div
+                  class="skill cursor-pointer text-white bg-primary-light py-2 px-4 rounded-lg"
+                >
+                  WindiCSS
+                </div>
+                <div
+                  class="skill cursor-pointer text-white bg-primary-light py-2 px-4 rounded-lg"
+                >
+                  Chakra UI
                 </div>
               </div>
             </div>
@@ -139,60 +159,107 @@
             v-show="transition.experience.content"
             class="flex justify-center"
           >
-            <div class="timeline flex space-y-12 gap-x-18">
-              <div class="year mt-32 desktop-only">
-                <h2 class="text-primary-light">2022</h2>
-              </div>
-              <div class="space-y-12">
-                <div class="step flex items-center relative space-x-12">
-                  <div class="line-container desktop-only">
-                    <div class="circle"></div>
-                  </div>
-                  <div
-                    class="content py-8 px-8 rounded shadow-md shadow-primary space-y-2"
-                  >
-                    <h2 class="text-left">Frontend Developer</h2>
-                    <p class="text-left">PT Suitmedia Kreasi Indonesia</p>
-                    <p class="text-left text-primary-light">
-                      Jul 2022 - Sep 2022
-                    </p>
-                    <ul class="text-left">
-                      <li>Develop corporate website using Nuxt.js and SASS</li>
-                      <li>
-                        Maintained running website by handling bug fixes
-                        reported from client
-                      </li>
-                      <li>
-                        Worked alongside Back End Developer and Analyst to
-                        fulfill client requests
-                      </li>
-                    </ul>
+            <div class="timeline space-y-12">
+              <div class="timeline-section flex space-y-12 gap-x-18">
+                <div class="year mt-32 desktop-only">
+                  <h2 class="text-primary-light">2023</h2>
+                </div>
+                <div class="space-y-12">
+                  <div class="step flex items-center relative space-x-12">
+                    <div class="line-container desktop-only">
+                      <div class="circle"></div>
+                    </div>
+                    <div
+                      class="content py-8 px-8 rounded shadow-md shadow-primary space-y-2"
+                    >
+                      <h2 class="text-left">Frontend Developer</h2>
+                      <p class="text-left">PT Mobility Doctor Indonesia</p>
+                      <p class="text-left text-primary-light">
+                        Dec 2022 - Current
+                      </p>
+                      <ul class="text-left">
+                        <li>
+                          Maintained running websites by handling bug fixes, and
+                          adjusting features
+                        </li>
+                        <li>
+                          Implement web design and features into website using
+                          Nuxt.js
+                        </li>
+                        <li>
+                          Ensures user interface responsiveness on various
+                          resolutions
+                        </li>
+                        <li>
+                          Write clean code to ease reusability on components and
+                          functions
+                        </li>
+                        <li>
+                          Worked alongside UI/UX Designer, Back End Developer,
+                          QA and other stakeholders to fulfill project goals
+                        </li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
-                <div class="step flex items-center relative space-x-12">
-                  <div class="line-container desktop-only">
-                    <div class="circle"></div>
+              </div>
+              <div class="timeline-section flex space-y-12 gap-x-18">
+                <div class="year mt-32 desktop-only">
+                  <h2 class="text-primary-light">2022</h2>
+                </div>
+                <div class="space-y-12">
+                  <div class="step flex items-center relative space-x-12">
+                    <div class="line-container desktop-only">
+                      <div class="circle"></div>
+                    </div>
+                    <div
+                      class="content py-8 px-8 rounded shadow-md shadow-primary space-y-2"
+                    >
+                      <h2 class="text-left">Frontend Developer</h2>
+                      <p class="text-left">PT Suitmedia Kreasi Indonesia</p>
+                      <p class="text-left text-primary-light">
+                        Jul 2022 - Sep 2022
+                      </p>
+                      <ul class="text-left">
+                        <li>
+                          Develop corporate website using Nuxt.js and SASS
+                        </li>
+                        <li>
+                          Maintained running website by handling bug fixes
+                          reported from client
+                        </li>
+                        <li>
+                          Worked alongside Back End Developer and Analyst to
+                          fulfill client requests
+                        </li>
+                      </ul>
+                    </div>
                   </div>
+                  <div class="step flex items-center relative space-x-12">
+                    <div class="line-container desktop-only">
+                      <div class="circle"></div>
+                    </div>
 
-                  <div
-                    class="content py-8 px-8 rounded shadow-md shadow-primary space-y-2"
-                  >
-                    <h2 class="text-left">Frontend Developer Intern</h2>
-                    <p class="text-left">PT Suitmedia Kreasi Indonesia</p>
-                    <p class="text-left text-primary-light">
-                      Feb 2022 - Jul 2022
-                    </p>
-                    <ul class="text-left">
-                      <li>Build a custom CMS using Nuxt.js and SASS</li>
-                      <li>
-                        Translate designs created by the UI/UX Designers into
-                        effective code
-                      </li>
-                      <li>
-                        Worked alongside Back End Developer and Analyst to
-                        fulfill client requests
-                      </li>
-                    </ul>
+                    <div
+                      class="content py-8 px-8 rounded shadow-md shadow-primary space-y-2"
+                    >
+                      <h2 class="text-left">Frontend Developer Intern</h2>
+                      <p class="text-left">PT Suitmedia Kreasi Indonesia</p>
+                      <p class="text-left text-primary-light">
+                        Feb 2022 - Jul 2022
+                      </p>
+                      <ul class="text-left">
+                        <li>Build a custom CMS using Nuxt.js and SASS</li>
+                        <li>
+                          Translate designs created by the UI/UX Designers into
+                          effective code
+                        </li>
+                        <li>
+                          Worked alongside Back End Developer and Analyst to
+                          fulfill client requests
+                        </li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -265,9 +332,14 @@
                   </div>
                 </div>
                 <div class="card-links space-x-2">
-                  <!-- <a href="" target="_blank" class="card-link circle"><i class="icon-github"></i></a> -->
                   <a
-                    href="https://bimbel-be-smart.herokuapp.com//"
+                    href="https://github.com/Raihan-21/besmart-client"
+                    target="_blank"
+                    class="card-link circle"
+                    ><i class="icon-github"></i
+                  ></a>
+                  <a
+                    href="https://be-smart.up.railway.app/"
                     target="_blank"
                     class="card-link circle"
                     ><i class="icon-arrow-up-right"></i
@@ -307,7 +379,7 @@
                     ><i class="icon-github"></i
                   ></a>
                   <a
-                    href="https://innoraine-cake.herokuapp.com/"
+                    href="https://ecommerce-production-9580.up.railway.app/"
                     target="_blank"
                     class="card-link circle"
                     ><i class="icon-arrow-up-right"></i
@@ -632,49 +704,57 @@ section {
   .line-container {
     height: 100%;
   }
-  .step {
-    .content {
-      border: 1px solid rgba($primary, 0.2);
-    }
-    .circle {
-      width: 25px;
-      height: 25px;
-      background: white;
-      border-radius: 50%;
-      border: 1px solid $primary;
-    }
+  .timeline-section {
     &:first-child {
-      .circle {
+      .circle:first-child {
         background: $primary;
       }
     }
-    &:not(:first-child) {
+    .step {
+      .content {
+        border: 1px solid rgba($primary, 0.2);
+      }
       .circle {
-        &::before {
-          content: "";
-          position: absolute;
-          top: -40px;
-          width: 1px;
-          height: 60%;
-          background: $primary;
-          z-index: -1;
+        width: 25px;
+        height: 25px;
+        background: white;
+        border-radius: 50%;
+        border: 1px solid $primary;
+      }
+      &:first-child {
+        // .circle {
+        //   background: $primary;
+        // }
+      }
+      &:not(:first-child) {
+        .circle {
+          &::before {
+            content: "";
+            position: absolute;
+            top: -40px;
+            width: 1px;
+            height: 60%;
+            background: $primary;
+            z-index: -1;
+          }
         }
       }
-    }
-    &:not(:last-child) {
-      .circle {
-        &::after {
-          content: "";
-          position: absolute;
-          bottom: -40px;
-          width: 1px;
-          height: 60%;
-          background: $primary;
-          z-index: -1;
+      &:not(:last-child) {
+        .circle {
+          &::after {
+            content: "";
+            position: absolute;
+            bottom: -40px;
+            width: 1px;
+            height: 60%;
+            background: $primary;
+            z-index: -1;
+          }
         }
       }
     }
   }
+
   .heading-enter-from {
     opacity: 0;
   }
