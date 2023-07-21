@@ -173,7 +173,13 @@
                       class="content py-8 px-8 rounded shadow-md shadow-primary space-y-2"
                     >
                       <h2 class="text-left">Frontend Developer</h2>
-                      <p class="text-left">PT Mobility Doctor Indonesia</p>
+                      <p class="text-left">
+                        PT Mobility Doctor Indonesia (<a
+                          href="https://m.modoc.id/"
+                          target="_blank"
+                          >Modoc.id</a
+                        >)
+                      </p>
                       <p class="text-left text-primary-light">
                         Dec 2022 - Current
                       </p>
@@ -277,6 +283,46 @@
         >
         <Transition name="content">
           <div v-show="transition.project.content" class="cards">
+            <div class="card relative rounded-lg">
+              <div class="h-full overflow-hidden flex items-end">
+                <img src="@/assets/img/trivia-quest.png" alt="" />
+                <div class="card-content text-left space-y-4">
+                  <p class="card-heading font-semibold">Trivia Quest</p>
+                  <p class="card-desc">
+                    A trivia quiz app with various categories to play with
+                  </p>
+
+                  <div class="card-tools space-x-2">
+                    <span class="bg-primary-light py-1 px-3 rounded-lg"
+                      >Next.js</span
+                    >
+                    <span class="bg-primary-light py-1 px-3 rounded-lg"
+                      >Chakra UI</span
+                    >
+                    <span class="bg-primary-light py-1 px-3 rounded-lg"
+                      >Tailwind</span
+                    >
+                    <span class="bg-primary-light py-1 px-3 rounded-lg"
+                      >Framer Motion</span
+                    >
+                  </div>
+                </div>
+                <div class="card-links space-x-2">
+                  <a
+                    href="https://github.com/Raihan-21/trivia-quest"
+                    target="_blank"
+                    class="card-link circle"
+                    ><i class="icon-github"></i
+                  ></a>
+                  <a
+                    href="http://trivia-quest.netlify.app/"
+                    target="_blank"
+                    class="card-link circle"
+                    ><i class="icon-arrow-up-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
             <div class="card relative rounded-lg">
               <div class="h-full overflow-hidden flex items-end">
                 <img src="@/assets/img/todo.png" alt="" />
