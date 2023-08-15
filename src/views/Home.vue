@@ -185,20 +185,20 @@
                       </p>
                       <ul class="text-left">
                         <li>
-                          Maintained running websites by handling bug fixes, and
-                          adjusting features
+                          Maintained running websites functionality and user
+                          interface
                         </li>
                         <li>
                           Implement web design and features into website using
-                          Nuxt.js
+                          Nuxt.js with microservice system
                         </li>
                         <li>
-                          Ensures user interface responsiveness on various
+                          Ensures website responsiveness on multiple devices and
                           resolutions
                         </li>
                         <li>
-                          Write clean code to ease reusability on components and
-                          functions
+                          Write clean code by adapting atomic design pattern to
+                          ease reusability on components and functions
                         </li>
                         <li>
                           Worked alongside UI/UX Designer, Back End Developer,
