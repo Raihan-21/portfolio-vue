@@ -360,7 +360,10 @@
             <div class="card relative rounded-lg">
               <div class="h-full overflow-hidden flex items-end">
                 <img src="@/assets/img/be-smart.png" alt="" />
-                <div class="card-content text-left space-y-4">
+                <div class="card-content w-full text-left space-y-4">
+                  <p class="text-yellow text-center w-full">
+                    Website currently down due to hosting provider
+                  </p>
                   <p class="card-heading font-semibold">Be Smart</p>
                   <p class="card-desc">
                     Tutoring companion website build with Node.js and React
@@ -396,7 +399,10 @@
             <div class="card relative rounded-lg">
               <div class="h-full overflow-hidden flex items-end">
                 <img src="@/assets/img/innoraine-cake.png" alt="" />
-                <div class="card-content text-left space-y-4">
+                <div class="card-content text-left space-y-4 w-full">
+                  <p class="text-yellow text-center w-full">
+                    Website currently down due to hosting provider
+                  </p>
                   <p class="card-heading font-semibold">Innoraine Cake</p>
                   <p class="card-desc">
                     An ecommerce to order cake products created using Node.js
