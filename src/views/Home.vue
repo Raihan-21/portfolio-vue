@@ -278,11 +278,42 @@
       <div class="container">
         <Transition name="heading">
           <h1 v-show="transition.project.heading" class="heading mb-12">
-            Personal Projects
+            Projects
           </h1></Transition
         >
         <Transition name="content">
           <div v-show="transition.project.content" class="cards">
+            <div class="card relative rounded-lg">
+              <div class="h-full overflow-hidden flex items-end">
+                <img src="@/assets/img/modoc-ss.png" alt="" />
+                <div class="card-content text-left space-y-4">
+                  <p class="card-heading font-semibold">Modoc.id</p>
+                  <p class="card-desc">
+                    Mobile web app for automotive consultation
+                  </p>
+
+                  <div class="card-tools space-x-2">
+                    <span class="bg-primary-light py-1 px-3 rounded-lg"
+                      >Nuxt.js</span
+                    >
+                    <span class="bg-primary-light py-1 px-3 rounded-lg"
+                      >SASS</span
+                    >
+                    <span class="bg-primary-light py-1 px-3 rounded-lg"
+                      >Windi CSS</span
+                    >
+                  </div>
+                </div>
+                <div class="card-links space-x-2">
+                  <a
+                    href="https://m.modoc.id"
+                    target="_blank"
+                    class="card-link circle"
+                    ><i class="icon-arrow-up-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
             <div class="card relative rounded-lg">
               <div class="h-full overflow-hidden flex items-end">
                 <img src="@/assets/img/trivia-quest.png" alt="" />
