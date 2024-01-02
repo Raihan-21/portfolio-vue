@@ -429,15 +429,15 @@
             </div>
             <div class="card relative rounded-lg">
               <div class="h-full overflow-hidden flex items-end">
-                <img src="@/assets/img/innoraine-cake.png" alt="" />
+                <img src="@/assets/img/innoraine-cake-new.png" alt="" />
                 <div class="card-content text-left space-y-4 w-full">
-                  <p class="text-yellow text-center w-full">
+                  <!-- <p class="text-yellow text-center w-full">
                     Website currently down due to hosting provider
-                  </p>
+                  </p> -->
                   <p class="card-heading font-semibold">Innoraine Cake</p>
                   <p class="card-desc">
-                    An ecommerce to order cake products created using Node.js
-                    and MongoDB
+                    An ecommerce to order cake products created using Next.js,
+                    Express.js, and PostgreSQL
                   </p>
                   <div class="card-tools space-x-2">
                     <span class="bg-primary-light py-1 px-3 rounded-lg"
@@ -447,22 +447,22 @@
                       >CSS</span
                     >
                     <span class="bg-primary-light py-1 px-3 rounded-lg"
-                      >Javascript</span
+                      >Next.js</span
                     >
                     <span class="bg-primary-light py-1 px-3 rounded-lg"
-                      >Node.js</span
+                      >Express.js</span
                     >
                   </div>
                 </div>
                 <div class="card-links space-x-2">
                   <a
-                    href="https://github.com/Raihan-21/ecommerce"
+                    href="https://github.com/Raihan-21/innoraine-cake-web"
                     target="_blank"
                     class="card-link circle"
                     ><i class="icon-github"></i
                   ></a>
                   <a
-                    href="https://ecommerce-production-9580.up.railway.app/"
+                    href="https://innoraine-cake.netlify.app/"
                     target="_blank"
                     class="card-link circle"
                     ><i class="icon-arrow-up-right"></i
