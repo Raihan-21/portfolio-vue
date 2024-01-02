@@ -197,8 +197,17 @@
                           resolutions
                         </li>
                         <li>
+                          Used micro-frontend architecture in component
+                          development to make component reusable in separated
+                          projects
+                        </li>
+                        <li>
                           Write clean code by adapting atomic design pattern to
                           ease reusability on components and functions
+                        </li>
+                        <li>
+                          Used Jenkins for automatic deployment in development
+                          environment
                         </li>
                         <li>
                           Worked alongside UI/UX Designer, Back End Developer,
