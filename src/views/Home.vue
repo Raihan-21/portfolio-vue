@@ -37,7 +37,7 @@
               class="desc text-left text-primary font-semibold leading-normal mb-10"
             >
               I am an enthusiatstic web developer specializing on the Front End
-              side. Currently i am a fresh graduate who's still looking for any
+              side. Currently i have 2 years of experience and looking for any
               opportunity, so if you have something you can click this button
               below!
             </p></Transition
@@ -73,9 +73,9 @@
           <div v-show="transition.about.content" class="container">
             <div class="profile text-left font-semibold leading-loose">
               <p class="mb-2">
-                Hi, my name is Muhammad Raihan, a fresh graduate who have
-                interest in Front End Web Developing. Although i recently
-                graduated, i have some experiences that you can check on
+                Hi, my name is Muhammad Raihan, jsut a guy who has interest in
+                Front End Web Development. I have 2 years of experience in this
+                and there are some experiences that you can check on
               </p>
               <p class="mb-2">
                 I'm open to Job opportunities where I can contribute, learn and
