@@ -185,20 +185,29 @@
                       </p>
                       <ul class="text-left">
                         <li>
-                          Maintained running websites by handling bug fixes, and
-                          adjusting features
+                          Maintained running websites functionality and user
+                          interface
                         </li>
                         <li>
                           Implement web design and features into website using
-                          Nuxt.js
+                          Nuxt.js with microservice system
                         </li>
                         <li>
-                          Ensures user interface responsiveness on various
+                          Ensures website responsiveness on multiple devices and
                           resolutions
                         </li>
                         <li>
-                          Write clean code to ease reusability on components and
-                          functions
+                          Used micro-frontend architecture in component
+                          development to make component reusable in separated
+                          projects
+                        </li>
+                        <li>
+                          Write clean code by adapting atomic design pattern to
+                          ease reusability on components and functions
+                        </li>
+                        <li>
+                          Used Jenkins for automatic deployment in development
+                          environment
                         </li>
                         <li>
                           Worked alongside UI/UX Designer, Back End Developer,
@@ -278,11 +287,42 @@
       <div class="container">
         <Transition name="heading">
           <h1 v-show="transition.project.heading" class="heading mb-12">
-            Personal Projects
+            Projects
           </h1></Transition
         >
         <Transition name="content">
           <div v-show="transition.project.content" class="cards">
+            <div class="card relative rounded-lg">
+              <div class="h-full overflow-hidden flex items-end">
+                <img src="@/assets/img/modoc-ss.png" alt="" />
+                <div class="card-content text-left space-y-4">
+                  <p class="card-heading font-semibold">Modoc.id</p>
+                  <p class="card-desc">
+                    Mobile web app for automotive consultation
+                  </p>
+
+                  <div class="card-tools space-x-2">
+                    <span class="bg-primary-light py-1 px-3 rounded-lg"
+                      >Nuxt.js</span
+                    >
+                    <span class="bg-primary-light py-1 px-3 rounded-lg"
+                      >SASS</span
+                    >
+                    <span class="bg-primary-light py-1 px-3 rounded-lg"
+                      >Windi CSS</span
+                    >
+                  </div>
+                </div>
+                <div class="card-links space-x-2">
+                  <a
+                    href="https://m.modoc.id"
+                    target="_blank"
+                    class="card-link circle"
+                    ><i class="icon-arrow-up-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
             <div class="card relative rounded-lg">
               <div class="h-full overflow-hidden flex items-end">
                 <img src="@/assets/img/trivia-quest.png" alt="" />
@@ -360,7 +400,10 @@
             <div class="card relative rounded-lg">
               <div class="h-full overflow-hidden flex items-end">
                 <img src="@/assets/img/be-smart.png" alt="" />
-                <div class="card-content text-left space-y-4">
+                <div class="card-content w-full text-left space-y-4">
+                  <p class="text-yellow text-center w-full">
+                    Website currently down due to hosting provider
+                  </p>
                   <p class="card-heading font-semibold">Be Smart</p>
                   <p class="card-desc">
                     Tutoring companion website build with Node.js and React
@@ -395,12 +438,15 @@
             </div>
             <div class="card relative rounded-lg">
               <div class="h-full overflow-hidden flex items-end">
-                <img src="@/assets/img/innoraine-cake.png" alt="" />
-                <div class="card-content text-left space-y-4">
+                <img src="@/assets/img/innoraine-cake-new.png" alt="" />
+                <div class="card-content text-left space-y-4 w-full">
+                  <!-- <p class="text-yellow text-center w-full">
+                    Website currently down due to hosting provider
+                  </p> -->
                   <p class="card-heading font-semibold">Innoraine Cake</p>
                   <p class="card-desc">
-                    An ecommerce to order cake products created using Node.js
-                    and MongoDB
+                    An ecommerce to order cake products created using Next.js,
+                    Express.js, and PostgreSQL
                   </p>
                   <div class="card-tools space-x-2">
                     <span class="bg-primary-light py-1 px-3 rounded-lg"
@@ -410,22 +456,22 @@
                       >CSS</span
                     >
                     <span class="bg-primary-light py-1 px-3 rounded-lg"
-                      >Javascript</span
+                      >Next.js</span
                     >
                     <span class="bg-primary-light py-1 px-3 rounded-lg"
-                      >Node.js</span
+                      >Express.js</span
                     >
                   </div>
                 </div>
                 <div class="card-links space-x-2">
                   <a
-                    href="https://github.com/Raihan-21/ecommerce"
+                    href="https://github.com/Raihan-21/innoraine-cake-web"
                     target="_blank"
                     class="card-link circle"
                     ><i class="icon-github"></i
                   ></a>
                   <a
-                    href="https://ecommerce-production-9580.up.railway.app/"
+                    href="https://innoraine-cake.netlify.app/"
                     target="_blank"
                     class="card-link circle"
                     ><i class="icon-arrow-up-right"></i
