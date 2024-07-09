@@ -162,6 +162,37 @@
             <div class="timeline space-y-12">
               <div class="timeline-section flex space-y-12 gap-x-18">
                 <div class="year mt-32 desktop-only">
+                  <h2 class="text-primary-light">2024</h2>
+                </div>
+                <div class="space-y-12">
+                  <div class="step flex items-center relative space-x-12">
+                    <div class="line-container desktop-only">
+                      <div class="circle"></div>
+                    </div>
+                    <div
+                      class="content py-8 px-8 rounded shadow-md shadow-primary space-y-2"
+                    >
+                      <h2 class="text-left">Freelance Frontend Developer</h2>
+                      <p class="text-left">PT Dlabs Indonesia</p>
+                      <p class="text-left text-primary-light">
+                        March 2024 - Current
+                      </p>
+                      <ul class="text-left">
+                        <li>
+                          Developing and maintaining a CRM Application using
+                          React.js, Typescript, and Bootstrap.
+                        </li>
+                        <li>
+                          Developing and maintaining an electric vehicle company
+                          website using Nuxt.js, Typescript, and Tailwind.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="timeline-section flex space-y-12 gap-x-18">
+                <div class="year mt-32 desktop-only">
                   <h2 class="text-primary-light">2023</h2>
                 </div>
                 <div class="space-y-12">
@@ -181,7 +212,7 @@
                         >)
                       </p>
                       <p class="text-left text-primary-light">
-                        Dec 2022 - Current
+                        Dec 2022 - March 2024
                       </p>
                       <ul class="text-left">
                         <li>
@@ -191,10 +222,6 @@
                         <li>
                           Implement web design and features into website using
                           Nuxt.js with microservice system
-                        </li>
-                        <li>
-                          Ensures website responsiveness on multiple devices and
-                          resolutions
                         </li>
                         <li>
                           Used micro-frontend architecture in component
@@ -208,10 +235,6 @@
                         <li>
                           Used Jenkins for automatic deployment in development
                           environment
-                        </li>
-                        <li>
-                          Worked alongside UI/UX Designer, Back End Developer,
-                          QA and other stakeholders to fulfill project goals
                         </li>
                       </ul>
                     </div>
@@ -294,7 +317,7 @@
           <div v-show="transition.project.content" class="cards">
             <div class="card relative rounded-lg">
               <div class="h-full overflow-hidden flex items-end">
-                <img src="@/assets/img/modoc-ss.png" alt="" />
+                <img src="@/assets/img/modoc.jpg" alt="" />
                 <div class="card-content text-left space-y-4">
                   <p class="card-heading font-semibold">Modoc.id</p>
                   <p class="card-desc">
@@ -320,6 +343,44 @@
                     class="card-link circle"
                     ><i class="icon-arrow-up-right"></i
                   ></a>
+                </div>
+              </div>
+            </div>
+            <div class="card relative rounded-lg">
+              <div class="h-full overflow-hidden flex items-end">
+                <img src="@/assets/img/eiger.png" alt="" />
+                <div class="card-content text-left space-y-4">
+                  <p class="card-heading font-semibold">Eiger Care</p>
+                  <p class="card-desc">
+                    Web Content Management System for Eiger
+                  </p>
+
+                  <div class="card-tools space-x-2">
+                    <span class="bg-primary-light py-1 px-3 rounded-lg"
+                      >Nuxt.js</span
+                    >
+                    <span class="bg-primary-light py-1 px-3 rounded-lg"
+                      >SASS</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card relative rounded-lg">
+              <div class="h-full overflow-hidden flex items-end">
+                <img src="@/assets/img/jtt.png" alt="" />
+                <div class="card-content text-left space-y-4">
+                  <p class="card-heading font-semibold">JTT Jasamarga</p>
+                  <p class="card-desc">Corporate website for JTT Jasamarga</p>
+
+                  <div class="card-tools space-x-2">
+                    <span class="bg-primary-light py-1 px-3 rounded-lg"
+                      >Nuxt.js</span
+                    >
+                    <span class="bg-primary-light py-1 px-3 rounded-lg"
+                      >SASS</span
+                    >
+                  </div>
                 </div>
               </div>
             </div>
