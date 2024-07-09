@@ -109,6 +109,11 @@
                 <div
                   class="skill cursor-pointer text-white bg-primary-light py-2 px-4 rounded-lg"
                 >
+                  Typescript
+                </div>
+                <div
+                  class="skill cursor-pointer text-white bg-primary-light py-2 px-4 rounded-lg"
+                >
                   React.js
                 </div>
                 <div
@@ -129,12 +134,12 @@
                 <div
                   class="skill cursor-pointer text-white bg-primary-light py-2 px-4 rounded-lg"
                 >
-                  TailwindCSS
+                  Tailwind CSS
                 </div>
                 <div
                   class="skill cursor-pointer text-white bg-primary-light py-2 px-4 rounded-lg"
                 >
-                  WindiCSS
+                  Windi CSS
                 </div>
                 <div
                   class="skill cursor-pointer text-white bg-primary-light py-2 px-4 rounded-lg"
