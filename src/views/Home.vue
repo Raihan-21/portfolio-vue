@@ -311,7 +311,7 @@
         </Transition>
       </div>
     </section>
-    <section class="section-4" id="project" ref="section4">
+    <section id="project" ref="section4" class="section-4">
       <div class="container">
         <Transition name="heading">
           <h1 v-show="transition.project.heading" class="heading mb-12">
@@ -320,6 +320,40 @@
         >
         <Transition name="content">
           <div v-show="transition.project.content" class="cards">
+            <div class="card relative rounded-lg">
+              <div class="h-full overflow-hidden flex items-end">
+                <img src="@/assets/img/maka.png" alt="" />
+                <div class="card-content text-left space-y-4">
+                  <p class="card-heading font-semibold">Maka Motors</p>
+                  <p class="card-desc">
+                    Electric motorcycle company landing page
+                  </p>
+
+                  <div class="card-tools space-x-2">
+                    <span class="bg-primary-light py-1 px-3 rounded-lg"
+                      >Nuxt.js</span
+                    >
+                    <span class="bg-primary-light py-1 px-3 rounded-lg"
+                      >Typescript</span
+                    >
+                    <span class="bg-primary-light py-1 px-3 rounded-lg"
+                      >SASS</span
+                    >
+                    <span class="bg-primary-light py-1 px-3 rounded-lg"
+                      >Tailwind</span
+                    >
+                  </div>
+                </div>
+                <div class="card-links space-x-2">
+                  <a
+                    href="https://maka-motors.com/en"
+                    target="_blank"
+                    class="card-link circle"
+                    ><i class="icon-arrow-up-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
             <div class="card relative rounded-lg">
               <div class="h-full overflow-hidden flex items-end">
                 <img src="@/assets/img/modoc.jpg" alt="" />
@@ -933,6 +967,7 @@ section {
   }
 }
 .section-4 {
+  scroll-margin-top: 80px;
   margin-bottom: 100px;
   .cards {
     display: grid;

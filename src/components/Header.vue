@@ -10,6 +10,7 @@
         <a href="#experience" class="text-primary hover:text-white"
           >Experience</a
         >
+        <a href="#project" class="text-primary hover:text-white">Projects</a>
         <a href="#contact" class="text-primary hover:text-white">Contact</a>
       </div>
       <!-- <div
