@@ -326,7 +326,7 @@
                 <div class="card-content text-left space-y-4">
                   <p class="card-heading font-semibold">Maka Motors</p>
                   <p class="card-desc">
-                    Electric motorcycle company landing page
+                    Landing page of an electric motorcycle company
                   </p>
 
                   <div class="card-tools space-x-2">
